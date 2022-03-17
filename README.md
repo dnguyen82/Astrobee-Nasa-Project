@@ -54,7 +54,7 @@ We stratified sampled 320 participants and annotated the type of motivation by i
 TABLE I. MOTIVATION CATEGORIES AND KEYWORDS
 
 
-![image](https://github.com/dnguyen82/Astrobee-Nasa-Project/blob/main/Screen%20Shot%202022-03-17%20at%204.15.48%20PM.png?raw=true)
+![image](https://github.com/dnguyen82/Astrobee-Nasa-Project/blob/main/Screen%20Shot%202022-03-17%20at%204.25.35%20PM.png?raw=true)
 
 ![image](https://github.com/dnguyen82/Astrobee-Nasa-Project/blob/main/Screen%20Shot%202022-03-17%20at%204.16.10%20PM.png?raw=true)
 
