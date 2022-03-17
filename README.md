@@ -53,6 +53,15 @@ We stratified sampled 320 participants and annotated the type of motivation by i
 
 TABLE I. MOTIVATION CATEGORIES AND KEYWORDS
 
+
+![image](
+
+![image]
+
+
+
+
+
 Intrinsic Motivation Sub-categories	Keywords
 Attraction	“love”, “NASA”, “space”, “design”
 Challenge	“contest”, “challenge”
