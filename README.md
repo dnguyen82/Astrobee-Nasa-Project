@@ -105,9 +105,11 @@ Others	0.04	0.01	-0.03
 
 Binary classification models were regressed to find the significance of the years of experience as explanatory variables of types of motivation. Results obtained indicate that the type of the challenge, years of experience in Design, and Mechanical Engineering are significant explanatory variables (p<0.05). 
 On the other hand, the second model regressed tested the significance of the motor type and years of experience to explain the level of participation. Results obtained showed that Intrinsic Motivation, Manufacturing, and Mechanical Engineering are significant to explain the level of participation in the different challenges.
+
+
 V. DISCUSSION AND CONCLUSIONS
 
-       The preliminary analysis results showed valuable information that we can obtain from this dataset. Although a better method to annotate the entire dataset is needed, we could obtain evidence of the explanatory variables that can be used to determine the intrinsic motivation and level of participation in this project. 
+The preliminary analysis results showed valuable information that we can obtain from this dataset. Although a better method to annotate the entire dataset is needed, we could obtain evidence of the explanatory variables that can be used to determine the intrinsic motivation and level of participation in this project. 
 Results showed that the years of experience in Design and Mechanical Engineering are significant explanatory variables that determine Intrinsic Motivation. Multiple models are suggested as the next step for this project because annotated data contains information of Intrinsic and Extrinsic subcategories, and more different disciplines could be significant in different intrinsic or extrinsic subcategories.
 Moreover, intrinsic motivation and years of experience in Mechanical Engineering, Manufacturing, and the type of challenge could be an indicative of the level of participation suggested by results of the second regression model. Results are shown in APPENDIX C. 
 Future work in this project includes to refine annotations and mechanism of scaling annotations up. Suggestions could be using machine learning to annotate the dataset. Moreover, future work includes the classification models for the different subcategories on each of the motivations. 
