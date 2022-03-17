@@ -35,6 +35,8 @@ In the competition, 255 submitted a proposal design [1].
 B.	Data Cleaning:
 Before stepping in to do the analysis, our data needed to be clean first. Clearing all null values and cleaning raw text were necessary for building or fitting models. The primary motivation text (WhyReg) contains, in some cases, symbols, grammatical errors, and special characters. We used Natural Language Processing (NLP) for tokenization, parsing, classification, stemming and created word cloud to overview the text dataset, “Fig 1”. Machine learning systems must understand human language and get easier on analyzing after being cleaned 
 
+![image](
+
  
 Fig 1. Motivation text word cloud
 
