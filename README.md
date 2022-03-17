@@ -35,7 +35,7 @@ In the competition, 255 submitted a proposal design [1].
 B.	Data Cleaning:
 Before stepping in to do the analysis, our data needed to be clean first. Clearing all null values and cleaning raw text were necessary for building or fitting models. The primary motivation text (WhyReg) contains, in some cases, symbols, grammatical errors, and special characters. We used Natural Language Processing (NLP) for tokenization, parsing, classification, stemming and created word cloud to overview the text dataset, “Fig 1”. Machine learning systems must understand human language and get easier on analyzing after being cleaned 
 
-![image](
+![image](https://github.com/dnguyen82/Astrobee-Nasa-Project/blob/main/Picture1.png?raw=true)
 
  
 Fig 1. Motivation text word cloud
@@ -44,8 +44,7 @@ The word cloud shows clearly that the word “NASA”, “want”, “contest”
 C.	Exploratory Data Analysis and Data Visualization
 The distribution of the years of experience in the different disciplines helped us to identify that in average, participants have less than 1 year of experience. However, important outliers are detected, representing years of experience greater than 10 years.
 
-
-
+![image](https://github.com/dnguyen82/Astrobee-Nasa-Project/blob/main/Picture2.png?raw=true)
  
 Fig. 2. Distribution Years of Experience 
 D.	Measures: 
@@ -67,7 +66,8 @@ Recognition	“capability”, “skills”
 
        Additionally, a second measure was proposed in this project. The level of participation was measured by creating a scale of the variables that described completeness in [1]. Zero indicates that participants only filled the survey, while Six indicates participants won the competition. Appendix B summarizes the definitions of [1] and how we adapted to this project. “Fig 2” shows the number of participants in the different scales.
 
- 
+ ![image](https://github.com/dnguyen82/Astrobee-Nasa-Project/blob/main/Picture5.png?raw=true)
+
 Fig. 2. Levels of Participation Scale 
 E.	Measurement Validation:
 Kohen’s Kappa is used to evaluate the reliability of motivation measurement. The reliability of the motivation type construct ranges from 0.89 and 0.91 for intrinsic and extrinsic motivation respectively. The reliability scores were above the recommended threshold value of 0.70 [3] suggesting a high level of reliability. 
@@ -75,12 +75,16 @@ Kohen’s Kappa is used to evaluate the reliability of motivation measurement. T
 F.	Research design
 A quasi-experimental research design is proposed for this project. Although randomized samples are not representative due to class unbalance in the challenge variable, stratified sampling is suggested. 320 samples were collected consisting of 20 participants for each of the 16 challenges. Data were annotated by 2 raters, and keywords were identified. Annotations were scaled-up to the entire 9,000 participants by matching keywords that relate to intrinsic and extrinsic motivation. Finally, it was proposed to evaluate causal relationships of motivation type and level of participation with the years of experience of the different disciplines, and the motivation type respectively. “Fig 3” shows the histogram of type of challenges, and “Fig 4” shows the result of measuring motivation.
 
+ ![image](https://github.com/dnguyen82/Astrobee-Nasa-Project/blob/main/Picture6.png?raw=true)
  
 Fig 3. Bar plot of the Challenges and number of participants
 
 
+ ![image](https://github.com/dnguyen82/Astrobee-Nasa-Project/blob/main/Picture7.png?raw=true)
  
 Fig. 4. Keywords and bigrams that expressed motivation type
+
+
 IV.	PRELIMINARY RESULTS
 We used Generalized Linear Models to test the hypotheses and define two models. In the first step, years of experience variables were transformed with log(x+1) to correct skewness. Next, as a second step, dimensionality was reduced using Principal Components Analysis (PCA). PCA loads were obtained and are presented in Table 2. Finally, two Logit GLM models were regressed.  
 
@@ -114,15 +118,10 @@ REFERENCES
 [2] Liang, Huigang, Meng-Meng Wang, Jian-Jun Wang, and Yajiong Xue. “How Intrinsic Motivation and Extrinsic Incentives Affect Task Effort in Crowdsourcing Contests: A Mediated Moderation Model.” Computers in human behavior 81 (2018): 168–176. 
 [3] Nunnally, 1978 J. Nunnally. Psychometric theory (2nd ed), McGraw-Hill, New York (1978).
 
-
-
-
-
-
-
-
  
 APPENDIX A
+
+![image](https://github.com/dnguyen82/Astrobee-Nasa-Project/blob/main/Picture8.png?raw=true)
  
 APPENDIX B
 Level	Definition	Scale
@@ -135,11 +134,8 @@ Did not submit/discarded	Downloaded the problem, showing some interest, but did 
 Did not downloaded	Complete registration, but never downloaded any challenge	0
 
 
-
-
-
-
 APPENDIX C
  
+![image](https://github.com/dnguyen82/Astrobee-Nasa-Project/blob/main/Picture9.png?raw=true)
 
-
+![image](https://github.com/dnguyen82/Astrobee-Nasa-Project/blob/main/Picture10.png?raw=true)
