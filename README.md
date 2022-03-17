@@ -54,24 +54,9 @@ We stratified sampled 320 participants and annotated the type of motivation by i
 TABLE I. MOTIVATION CATEGORIES AND KEYWORDS
 
 
-![image](
+![image](https://github.com/dnguyen82/Astrobee-Nasa-Project/blob/main/Screen%20Shot%202022-03-17%20at%204.15.48%20PM.png?raw=true)
 
-![image]
-
-
-
-
-
-Intrinsic Motivation Sub-categories	Keywords
-Attraction	“love”, “NASA”, “space”, “design”
-Challenge	“contest”, “challenge”
-Skills	“capability”, “skills”
-Novelty	“new”, “new things”
-
-Extrinsic Motivation Sub-Categories	Keywords
-Monetary	“love”, “NASA”, “space”,“design”
-Career	“contest”, “job”
-Recognition	“capability”, “skills”
+![image](https://github.com/dnguyen82/Astrobee-Nasa-Project/blob/main/Screen%20Shot%202022-03-17%20at%204.16.10%20PM.png?raw=true)
 
        Additionally, a second measure was proposed in this project. The level of participation was measured by creating a scale of the variables that described completeness in [1]. Zero indicates that participants only filled the survey, while Six indicates participants won the competition. Appendix B summarizes the definitions of [1] and how we adapted to this project. “Fig 2” shows the number of participants in the different scales.
 
@@ -97,20 +82,7 @@ Fig. 4. Keywords and bigrams that expressed motivation type
 IV.	PRELIMINARY RESULTS
 We used Generalized Linear Models to test the hypotheses and define two models. In the first step, years of experience variables were transformed with log(x+1) to correct skewness. Next, as a second step, dimensionality was reduced using Principal Components Analysis (PCA). PCA loads were obtained and are presented in Table 2. Finally, two Logit GLM models were regressed.  
 
-TABLE II.	Principal Components Loads
-	PC1	PC2	PC3
-Electrical Engineering	0.24	0.17	0.13
-Engineering Drawing	0.54	-0.15	0.11
-Design	0.63	-0.24	-0.53
-Industrial Engineering	0.30	-0.021	0.15
-Manufacturing	0.41	-0.086	0.18
-Material Science	0.18	-0.004	0.07
-Mechanical Engineering	0.43	-0.159	0.24
-Project Management	0.38	0.16	0.02
-Robotics	0.25	0.11	0.13
-Computer Science	0.27	0.78	-0.12
-Others	0.04	0.01	-0.03
-
+ ![image](https://github.com/dnguyen82/Astrobee-Nasa-Project/blob/main/Screen%20Shot%202022-03-17%20at%204.16.47%20PM.png?raw=true)
 
 Binary classification models were regressed to find the significance of the years of experience as explanatory variables of types of motivation. Results obtained indicate that the type of the challenge, years of experience in Design, and Mechanical Engineering are significant explanatory variables (p<0.05). 
 On the other hand, the second model regressed tested the significance of the motor type and years of experience to explain the level of participation. Results obtained showed that Intrinsic Motivation, Manufacturing, and Mechanical Engineering are significant to explain the level of participation in the different challenges.
@@ -135,15 +107,8 @@ APPENDIX A
 ![image](https://github.com/dnguyen82/Astrobee-Nasa-Project/blob/main/Picture8.png?raw=true)
  
 APPENDIX B
-Level	Definition	Scale
-Winner	The design is detailed and was selected as the winning solution	6
-Detailed	Design of the entire system has been specified	5
-Mixed	Detailed completed, but some aspects remain at the conceptual level	4
-Conceptual Complete	The conceptual design is complete. It could become a detailed design	3
-Incomplete	Solution has design content, but it is not responsive to the problem as posed	2
-Did not submit/discarded	Downloaded the problem, showing some interest, but did not submit any design content	1
-Did not downloaded	Complete registration, but never downloaded any challenge	0
 
+![image](https://github.com/dnguyen82/Astrobee-Nasa-Project/blob/main/Screen%20Shot%202022-03-17%20at%204.17.14%20PM.png?raw=true)
 
 APPENDIX C
  
